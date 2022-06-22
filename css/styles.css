@@ -2,7 +2,10 @@
 	--logo_font: "Raleway", sans-serif;
 	--main_font: "Roboto", sans-serif;
 }
-.header {
+/* * {
 	margin: 0;
+	padding: 0;
+} */
+.header {
 	background-color: #ffffff;
 }
