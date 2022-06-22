@@ -60,3 +60,6 @@
 .navigation_list {
 	display: flex;
 }
+.navigation {
+	margin-right: 330px;
+}
