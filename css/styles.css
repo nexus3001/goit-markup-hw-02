@@ -39,3 +39,13 @@
 	letter-spacing: 0.02em;
 	color: #757575;
 }
+.navigation_item {
+	margin-right: 50px;
+}
+.logo {
+	margin-right: 95px;
+}
+.navigation_list,
+.header {
+	display: flex;
+}
