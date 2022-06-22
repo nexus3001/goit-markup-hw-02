@@ -1,0 +1,8 @@
+:root {
+	--logo_font: "Raleway", sans-serif;
+	--main_font: "Roboto", sans-serif;
+}
+.header {
+	margin: 0;
+	background-color: #ffffff;
+}
