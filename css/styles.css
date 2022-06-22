@@ -8,7 +8,9 @@
 } */
 .header {
 	background-color: #ffffff;
-	padding: 25px 93px 25px 215px;
+	padding: 25px 215px;
+	display: flex;
+	align-items: center;
 }
 
 .dots {
@@ -41,11 +43,20 @@
 }
 .navigation_item {
 	margin-right: 50px;
+	/* background-color: #2196f3; */
 }
 .logo {
-	margin-right: 95px;
+	font-family: var(--logo_font);
+	margin-right: 90px;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: #2196f3;
 }
-.navigation_list,
-.header {
+.logo2 {
+	color: #000000;
+}
+.navigation_list {
 	display: flex;
 }
