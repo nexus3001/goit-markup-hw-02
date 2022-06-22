@@ -2,10 +2,9 @@
 	--logo_font: "Raleway", sans-serif;
 	--main_font: "Roboto", sans-serif;
 }
-/* * {
-	margin: 0;
-	padding: 0;
-} */
+* {
+	box-sizing: border-box;
+}
 .header {
 	background-color: #ffffff;
 	padding: 25px 215px;
