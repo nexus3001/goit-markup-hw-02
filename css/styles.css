@@ -8,4 +8,34 @@
 } */
 .header {
 	background-color: #ffffff;
+	padding: 25px 93px 25px 215px;
+}
+
+.dots {
+	list-style: none;
+}
+.dis_link {
+	text-decoration: none;
+}
+.navigation_links:hover {
+	color: #2196f3;
+}
+.kontakt_links:hover {
+	color: #2196f3;
+}
+.navigation_links {
+	font-family: var(--main_font);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+.kontakt_links {
+	font-family: var(--main_font);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #757575;
 }
