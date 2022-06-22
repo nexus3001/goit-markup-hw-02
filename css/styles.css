@@ -44,6 +44,9 @@
 	margin-right: 50px;
 	/* background-color: #2196f3; */
 }
+.navigation_item:last-child {
+	margin-right: 0;
+}
 .logo {
 	font-family: var(--logo_font);
 	margin-right: 90px;
