@@ -91,6 +91,8 @@ body {
 	background-color: #2f303a;
 	padding: 200px 455px;
 	align-items: center;
+	/* width: 1600px;
+	height: 600px; */
 }
 
 .hero_caption {
@@ -123,6 +125,8 @@ body {
 .section_plus {
 	padding: 94px 215px;
 	align-items: center;
+	/* width: 1170px;
+	height: 101px; */
 }
 .plus_list {
 	display: flex;
@@ -153,4 +157,5 @@ body {
 /* ABOT_US */
 .about_us {
 	align-items: center;
+	padding: 94px 215px;
 }
