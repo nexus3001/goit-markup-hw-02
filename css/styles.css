@@ -1,12 +1,20 @@
 :root {
 	--logo_font: "Raleway", sans-serif;
 	--main_font: "Roboto", sans-serif;
+	--blue_color: #2196f3;
+	--black_color: #212121;
+	--grey_color: #757575;
+	--white_color: #ffffff;
+}
+
+body {
+	background-color: var(--white_color);
+	font-family: var(--main_font);
 }
 * {
 	box-sizing: border-box;
 }
 .header {
-	background-color: #ffffff;
 	padding: 25px 215px;
 	display: flex;
 	align-items: center;
@@ -19,26 +27,24 @@
 	text-decoration: none;
 }
 .navigation_links:hover {
-	color: #2196f3;
+	color: var(--blue_color);
 }
 .kontakt_links:hover {
-	color: #2196f3;
+	color: var(--blue_color);
 }
 .navigation_links {
-	font-family: var(--main_font);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-	color: #212121;
+	color: var(--black_color);
 }
 .kontakt_links {
-	font-family: var(--main_font);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-	color: #757575;
+	color: var(--grey_color);
 }
 .navigation_item {
 	margin-right: 50px;
@@ -54,7 +60,7 @@
 	font-size: 26px;
 	line-height: 31px;
 	letter-spacing: 0.03em;
-	color: #2196f3;
+	color: var(--blue_color);
 }
 .logo2 {
 	color: #000000;
@@ -65,6 +71,31 @@
 .navigation {
 	margin-right: 330px;
 }
-.s1 {
+.hero {
 	background-color: #2f303a;
+}
+.hero_caption {
+	align-items: center;
+	/* display: flex; */
+	margin: 200px 452px 280px;
+
+	width: 696px;
+	height: 120px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white_color);
+}
+.hero_button {
+	align-items: center;
+	background-color: var(--blue_color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
 }
