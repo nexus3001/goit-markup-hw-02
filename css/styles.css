@@ -44,7 +44,6 @@ body {
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
-	color: var(--black_color);
 }
 
 .kontakt_links {
@@ -166,7 +165,6 @@ body {
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .about_us_link {
 	display: flex;
@@ -187,7 +185,6 @@ body {
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .team_item {
 	display: flex;
@@ -196,4 +193,21 @@ body {
 	width: 270px;
 	height: 368px;
 	margin-right: 30px;
+}
+.team_text2 {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+.team_text3 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--grey_color);
 }
