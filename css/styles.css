@@ -348,4 +348,8 @@ body {
 /* PORTFOLIO IMAGES */
 .porfolio_img {
 	display: flex;
+	margin-bottom: 30px;
+}
+.portfolioimg_items {
+	margin-right: 30px;
 }
