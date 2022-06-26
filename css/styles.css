@@ -174,3 +174,26 @@ body {
 .about_us_item {
 	margin-right: 30px;
 }
+
+/* TEAM */
+.team {
+	background-color: #f5f4fa;
+	padding: 186px 215px 94px;
+}
+.team_text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--black_color);
+}
+.team_item {
+	display: flex;
+}
+.team_links {
+	width: 270px;
+	height: 368px;
+	margin-right: 30px;
+}
