@@ -76,17 +76,11 @@ body {
 }
 .hero_caption {
 	align-items: center;
-	/* display: flex; */
 	margin: 200px 452px 280px;
-
 	width: 696px;
 	height: 120px;
 	font-weight: 900;
 	font-size: 44px;
-	line-height: 60px;
-	text-align: center;
-	letter-spacing: 0.06em;
-	text-transform: uppercase;
 	color: var(--white_color);
 }
 .hero_button {
@@ -95,7 +89,4 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.06em;
 }
