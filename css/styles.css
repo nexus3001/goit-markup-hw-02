@@ -10,6 +10,7 @@
 body {
 	background-color: var(--white_color);
 	font-family: var(--main_font);
+	color: var(--black_color);
 }
 * {
 	box-sizing: border-box;
@@ -116,4 +117,40 @@ body {
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 30px;
+}
+
+/* SECTION_PLUS */
+.section_plus {
+	padding: 94px 215px;
+	align-items: center;
+}
+.plus_list {
+	display: flex;
+	padding-right: 30px;
+}
+.plus_text1 {
+	margin-top: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.plus_text2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: var(--grey_color);
+}
+.plus_items {
+	width: 270px;
+	height: 100px;
+}
+
+/* ABOT_US */
+.about_us {
+	align-items: center;
 }
