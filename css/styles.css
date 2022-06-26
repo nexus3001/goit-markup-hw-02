@@ -26,6 +26,8 @@ body {
 .dis_link {
 	text-decoration: none;
 }
+
+/* HEADER */
 .navigation_links:hover {
 	color: var(--blue_color);
 }
@@ -71,12 +73,15 @@ body {
 .navigation {
 	margin-right: 330px;
 }
+
+/* HERO */
 .hero {
 	background-color: #2f303a;
 }
 .hero_caption {
 	align-items: center;
-	margin: 200px 452px 280px;
+	padding: 200px 452px 280px;
+	margin: 0;
 	width: 696px;
 	height: 120px;
 	font-weight: 900;
