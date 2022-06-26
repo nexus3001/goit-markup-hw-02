@@ -274,6 +274,13 @@ body {
 /* PORTFOLIO */
 /* SECTION BUTTON */
 
+.header1 {
+	padding: 25px 215px;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #eeeeee;
+}
+
 .portfolio_buttons {
 	padding: 94px 495px 34px 495px;
 }
