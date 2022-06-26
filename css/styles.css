@@ -31,11 +31,13 @@ body {
 	align-items: center;
 }
 
-.navigation_links:hover {
+.navigation_links:hover,
+.navigation_links:focus {
 	color: var(--blue_color);
 }
 
-.kontakt_links:hover {
+.kontakt_links:hover,
+.kontakt_links:focus {
 	color: var(--blue_color);
 }
 
@@ -259,4 +261,91 @@ body {
 }
 .footer_list {
 	margin-top: 9px;
+}
+
+/* PORTFOLIO */
+/* SECTION BUTTON */
+
+.portfolio_buttons {
+	padding: 94px 495px 34px 495px;
+}
+.portfolio_navigation {
+	display: flex;
+	align-items: center;
+}
+.portfolio_button1:hover,
+.portfolio_button1:focus {
+	background-color: var(--blue_color);
+	color: var(--white_color);
+}
+.portfolio_button1 {
+	width: 73px;
+	height: 38px;
+	border: none;
+	background-color: #f5f4fa;
+	margin-right: 8px;
+	border-radius: 4px;
+}
+.portfolio_button2:hover,
+.portfolio_button2:focus {
+	background-color: var(--blue_color);
+	color: var(--white_color);
+}
+.portfolio_button2 {
+	width: 128px;
+	height: 38px;
+	border: none;
+	background-color: #f5f4fa;
+	margin-right: 8px;
+	border-radius: 4px;
+}
+.portfolio_button3:hover,
+.portfolio_button3:focus {
+	background-color: var(--blue_color);
+	color: var(--white_color);
+}
+.portfolio_button3 {
+	width: 145px;
+	height: 38px;
+	border: none;
+	background-color: #f5f4fa;
+	margin-right: 8px;
+	border-radius: 4px;
+}
+.portfolio_button4:hover,
+.portfolio_button4:focus {
+	background-color: var(--blue_color);
+	color: var(--white_color);
+}
+.portfolio_button4 {
+	width: 103px;
+	height: 38px;
+	border: none;
+	background-color: #f5f4fa;
+	margin-right: 8px;
+	border-radius: 4px;
+}
+.portfolio_button5:hover,
+.portfolio_button5:focus {
+	background-color: var(--blue_color);
+	color: var(--white_color);
+}
+.portfolio_button5 {
+	width: 130px;
+	height: 38px;
+	border: none;
+	background-color: #f5f4fa;
+	margin-right: 8px;
+	border-radius: 4px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--black_color);
+}
+/* PORTFOLIO IMAGES */
+.porfolio_img {
+	display: flex;
 }
