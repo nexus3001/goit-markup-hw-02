@@ -244,7 +244,7 @@ body {
 	color: var(--white_color);
 }
 .footer_items {
-	margin-left: 0;
+	padding-left: 0;
 }
 .footer_links {
 	font-style: normal;
