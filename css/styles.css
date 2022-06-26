@@ -215,9 +215,16 @@ body {
 	color: var(--grey_color);
 }
 /* FOOTER */
+
 .footer {
 	background-color: #2f303a;
 	padding: 60px 1154px 60px 215px;
+}
+.footer_adres:hover,
+.footer_links:hover,
+.footer_adres:focus,
+.footer_links:focus {
+	color: var(--blue_color);
 }
 .logo3 {
 	font-family: var(--logo_font);
