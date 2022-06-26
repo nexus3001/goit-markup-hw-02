@@ -46,6 +46,7 @@ body {
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 0.02em;
+	color: var(--black_color);
 }
 
 .kontakt_links {
@@ -58,7 +59,6 @@ body {
 
 .navigation_item {
 	margin-right: 50px;
-	/* background-color: #2196f3; */
 }
 
 .navigation_item:last-child {
@@ -128,8 +128,6 @@ body {
 .section_plus {
 	padding: 94px 215px;
 	align-items: center;
-	/* width: 1170px;
-	height: 101px; */
 }
 .plus_list {
 	display: flex;
