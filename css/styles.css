@@ -407,7 +407,7 @@ body {
 	letter-spacing: 0.06em;
 	margin-left: 24px;
 	margin-top: 20px;
-	margin-bottom: 4px;
+	margin-bottom: 0px;
 	color: var(--black_color);
 }
 .portfolio_text2 {
@@ -418,4 +418,5 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--grey_color);
 	margin-left: 24px;
+	margin-top: 4px;
 }
