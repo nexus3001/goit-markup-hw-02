@@ -211,3 +211,45 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--grey_color);
 }
+/* FOOTER */
+.footer {
+	background-color: #2f303a;
+	padding: 60px 1154px 60px 215px;
+}
+.logo3 {
+	font-family: var(--logo_font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: var(--blue_color);
+}
+.logo4 {
+	font-family: var(--logo_font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 31px;
+	letter-spacing: 0.03em;
+	color: var(--white_color);
+}
+.footer_adres {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: var(--white_color);
+}
+.footer_links {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
+.footer_address {
+	margin-top: 20px;
+}
