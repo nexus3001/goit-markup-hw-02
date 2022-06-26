@@ -88,12 +88,12 @@ body {
 /* HERO */
 .hero {
 	background-color: #2f303a;
-	padding: 200px 450px 280px;
+	padding: 200px 455px;
 	align-items: center;
 }
 
 .hero_caption {
-	width: 680px;
+	width: 696px;
 	height: 120px;
 	font-style: normal;
 	font-weight: 900;
