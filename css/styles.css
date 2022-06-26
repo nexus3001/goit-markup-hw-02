@@ -159,3 +159,18 @@ body {
 	align-items: center;
 	padding: 94px 215px;
 }
+.about_us_text {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--black_color);
+}
+.about_us_link {
+	display: flex;
+}
+.about_us_item {
+	margin-right: 30px;
+}
