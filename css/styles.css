@@ -3,8 +3,13 @@
 	--main_font: "Roboto", sans-serif;
 	--blue_color: #2196f3;
 	--black_color: #212121;
+	--darkblack_color: #000000;
 	--grey_color: #757575;
 	--white_color: #ffffff;
+	--darkwhite_color: #f5f4fa;
+	--darkblue_color: #2f303a;
+	--border_color: #eeeeee;
+	--opasity: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -79,7 +84,7 @@ body {
 }
 
 .logo2 {
-	color: #000000;
+	color: var(--darkblack_color);
 }
 
 .navigation_list {
@@ -92,7 +97,7 @@ body {
 
 /* HERO */
 .hero {
-	background-color: #2f303a;
+	background-color: var(--darkblue_color);
 	padding: 200px 455px;
 	align-items: center;
 	/* width: 1600px;
@@ -180,7 +185,7 @@ body {
 
 /* TEAM */
 .team {
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	padding: 186px 215px 94px;
 }
 .team_text {
@@ -219,7 +224,7 @@ body {
 /* FOOTER */
 
 .footer {
-	background-color: #2f303a;
+	background-color: var(--darkblue_color);
 	padding: 60px 1154px 60px 215px;
 }
 .footer_adres:hover,
@@ -263,7 +268,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--opasity);
 }
 .footer_address {
 	margin-top: 20px;
@@ -279,7 +284,7 @@ body {
 	padding: 25px 215px;
 	display: flex;
 	align-items: center;
-	border-bottom: 2px solid #eeeeee;
+	border-bottom: 2px solid var(--border_color);
 }
 
 .portfolio_buttons {
@@ -298,7 +303,7 @@ body {
 	width: 73px;
 	height: 38px;
 	border: none;
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	margin-right: 8px;
 	border-radius: 4px;
 	cursor: pointer;
@@ -318,7 +323,7 @@ body {
 	width: 128px;
 	height: 38px;
 	border: none;
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	margin-right: 8px;
 	border-radius: 4px;
 	cursor: pointer;
@@ -338,7 +343,7 @@ body {
 	width: 145px;
 	height: 38px;
 	border: none;
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	margin-right: 8px;
 	border-radius: 4px;
 	cursor: pointer;
@@ -358,7 +363,7 @@ body {
 	width: 103px;
 	height: 38px;
 	border: none;
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	margin-right: 8px;
 	border-radius: 4px;
 	cursor: pointer;
@@ -378,7 +383,7 @@ body {
 	width: 130px;
 	height: 38px;
 	border: none;
-	background-color: #f5f4fa;
+	background-color: var(--darkwhite_color);
 	margin-right: 8px;
 	border-radius: 4px;
 	font-style: normal;
@@ -397,7 +402,7 @@ body {
 }
 .portfolioimg_items {
 	margin-right: 30px;
-	border: 1px solid #eeeeee;
+	border: 1px solid var(--border_color);
 }
 .portfolio_text1 {
 	font-style: normal;
