@@ -300,7 +300,6 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .portfolio_button2:hover,
 .portfolio_button2:focus {
@@ -321,7 +320,6 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .portfolio_button3:hover,
 .portfolio_button3:focus {
@@ -342,7 +340,6 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .portfolio_button4:hover,
 .portfolio_button4:focus {
@@ -363,7 +360,6 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
 }
 .portfolio_button5:hover,
 .portfolio_button5:focus {
@@ -383,7 +379,7 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--black_color);
+
 	cursor: pointer;
 }
 /* PORTFOLIO IMAGES */
@@ -393,4 +389,20 @@ body {
 }
 .portfolioimg_items {
 	margin-right: 30px;
+	border: 1px solid #eeeeee;
+}
+.portfolio_text1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+}
+.portfolio_text2 {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: var(--grey_color);
 }
