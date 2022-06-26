@@ -23,6 +23,9 @@ body {
 .dis_link {
 	text-decoration: none;
 }
+.hiden {
+	visibility: hidden;
+}
 
 /* HEADER */
 .header {
